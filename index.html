@@ -1,7 +1,21 @@
 ---
+title: Home
 layout: default
-title: Nick Sillik
 ---
-{% for post in posts %}
-djskfdjs
-{% endfor %}
+<div id="firstpost">
+	{% for firstpost in site.posts limit:1 %} 
+	<div class="post_date">
+		<div class="date_day">{{ firstpost.date | date:"%d" }}</div>
+		<div class="date_month">{{ firstpost.date | date:"%b" }}</div>
+		<div class="date_year">{{ firstpost.date | date:"%Y" }}</div>
+	</div>
+	{{firstpost.title}}
+	{% endfor %}
+</div>
+<ul id="posts">
+	{% for post in site.posts offset:1 %}
+	<li>
+		{{post.title}}
+	</li>
+	{% endfor %}
+</ul>
