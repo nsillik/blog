@@ -47,9 +47,9 @@ a:hover {
 
 div#topheader {
 	height: 2.5em;
-	background:  #073642;
 	color: #fdf6e3;
 	position: relative;
+	background: #073642 url(img/darknoise.png) repeat 0 0;
 }
 
 div#topheader h1 {
@@ -95,10 +95,10 @@ div#previous div.date, div#editorial div.date {
 div#sitefooter {
 	width: 100%;
 	padding-top: 1em;
-	background-color: #002b36;	
-	color: eee8d5;
+	color: #eee8d5;
 	font-size: 0.5em;
 	height: 20em;
+	background:#002b36 url(img/darknoise.png) repeat 0 0;
 }
 
 div#sitefooter a {
