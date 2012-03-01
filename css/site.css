@@ -1,3 +1,111 @@
+/*
+$base03:    #002b36;
+$base02:    #073642;
+$base01:    #586e75;
+$base00:    #657b83;
+$base0:     #839496;
+$base1:     #93a1a1;
+$base2:     #eee8d5;
+$base3:     #fdf6e3;
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
+*/
 html {
-	background-color: red;
+	font-family: 'Lato', sans-serif;
+	font-size: 2em;
+	background-color: #fdf6e3; 
+	color: #586e75;
 }
+
+body {
+	background-color: #fdf6e3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	margin-bottom: 0.1em;
+}
+
+a {
+	color: #268bd2; 
+	text-decoration: none;
+}
+
+a:visited {
+
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+div#topheader {
+	height: 2.5em;
+	background:  #073642;
+	color: #fdf6e3;
+	position: relative;
+}
+
+div#topheader h1 {
+	position: absolute;
+	bottom: -0.25em;
+	font-size: 2.0em;
+	line-height: 1em;
+	padding-left: 0.1em;
+}
+
+div#firstpost div.keepreading{
+	text-align: right;
+	font-size: 0.8em;
+	margin-top: 0.2em;
+}
+
+div#firstpost div.date {
+	position: relative;
+	font-size: 0.5em;
+	top: -0.8em;
+}
+
+div#firstpost h2 {
+	font-size:2em;
+	line-height: 0.8em;
+	margin-bottom: 0.2em;
+}
+
+div#firstpost div.keepreading {
+	position: relative;
+	right: 0px;
+}
+
+div#othercontent{
+	margin-top: 0.8em;
+	margin-bottom: 0.8em;
+}
+
+div#previous div.date, div#editorial div.date {
+	font-size: 0.5em;
+}
+
+div#sitefooter {
+	width: 100%;
+	padding-top: 1em;
+	background-color: #002b36;	
+	color: eee8d5;
+	font-size: 0.5em;
+	height: 20em;
+}
+
+div#sitefooter a {
+	color: #cb4b16;
+}
+
+div.copyright p {
+	margin-bottom: 1em;
+}
+
