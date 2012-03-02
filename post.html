@@ -1,0 +1,45 @@
+---
+layout: site 
+---
+	<div class="post grid_10 suffix_2">
+		<h2><a href="#">self.property = nil considered harmful</a></h2>
+		<div class="date">February 29, 2012</div>
+		<div class="postbody">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus neque facilisis mauris luctus volutpat. Sed aliquet erat vel nibh malesuada non iaculis quam fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer pulvinar ullamcorper erat, id hendrerit tellus ullamcorper eget.</p>
+			<p>Suspendisse et libero arcu, sit amet feugiat orci. Praesent rhoncus, nibh mattis congue luctus, urna ante tincidunt orci, ut scelerisque massa erat sit amet dui. Vestibulum lacinia velit eu eros varius pretium. Etiam leo arcu, sodales quis dignissim quis, mollis ac ante. Morbi vel lacinia odio. Aenean eget ligula tortor, eget mollis tortor. Nulla felis mi, euismod scelerisque faucibus vel, vehicula in elit. Nullam id eros ante, vel ultrices erat. Praesent scelerisque pellentesque dictum. Etiam vulputate nisl id ipsum ultricies fringilla. Duis scelerisque ornare congue.</p>
+			<pre><code>@interface Person : NSObject {
+    @public
+	NSString *name;
+    @private
+	int age;
+}
+ 
+@property(copy) NSString *name;
+@property(readonly) int age;
+ 
+-(id)initWithAge:(int)age;
+@end</pre></code>
+			<p>Nulla facilisi. Aenean vitae ligula augue. Mauris congue dignissim lectus, lacinia interdum velit rhoncus pharetra. Cras nisl nibh, aliquet eu feugiat vitae, euismod eu risus. Aenean suscipit placerat purus at elementum. In vehicula elit sed ante tempor accumsan. Vivamus auctor ante in ligula mollis volutpat. Morbi malesuada gravida diam sed pulvinar. Vivamus nec auctor risus.</p>
+			<p>Aliquam molestie suscipit elit, nec tincidunt diam pretium a. Nam augue augue, euismod sit amet vehicula sit amet, rutrum id massa. Aenean semper, mi sed auctor blandit, neque purus interdum orci, interdum congue tortor erat vel urna. Nam sit amet massa porttitor urna sollicitudin elementum a ac urna. Phasellus elementum nunc et purus mollis porta. Nam pulvinar neque at justo gravida vitae pulvinar odio volutpat. Mauris sit amet mattis ipsum. Integer turpis dui, tincidunt quis consectetur eu, ultrices vel ligula. Praesent consectetur fermentum egestas. Duis tristique libero quis elit fermentum malesuada. Phasellus molestie pretium felis id luctus. In ac libero at dui tincidunt congue eget nec purus. Nunc a sem purus.</p>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div id="othercontent" class="grid_12">
+		<div id="previous" class="grid_4 suffix_1 alpha">
+			<h3>Related on site title:</h3>
+			<ul>
+				<li><a href="">Second Post Title</a><div class="date">February 29, 2012</div></li>
+				<li><a href="">Third Post Title</a><div class="date">January 3, 2012</div></li>
+				<li><a href="">Fourth Post Title</a><div class="date">December 19, 2011</div></li>
+			</ul>
+		</div>
+		<div id="editorial" class="grid_4 omega">
+			<h3>Popular on site title:</h3>
+			<ul>
+				<li><a href="">Second Post Title</a><div class="date">February 29, 2012</div></li>
+				<li><a href="">Third Post Title</a><div class="date">January 9, 2012</div></li>
+				<li><a href="">Fourth Post Title</a><div class="date">December 2, 2011</div></li>
+			</ul>
+		</div>
+	</div>
+	<div class="clear"></div>

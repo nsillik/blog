@@ -45,6 +45,10 @@ a:hover {
 	text-decoration: underline;
 }
 
+div#topheader h1 a, div#topheader h1 a:hover {
+	color: #fdf6e3;
+}
+
 div#topheader {
 	height: 2.5em;
 	color: #fdf6e3;
@@ -60,16 +64,26 @@ div#topheader h1 {
 	padding-left: 0.1em;
 }
 
+div#maincontent {
+	padding-top: 0.5em;
+	line-height: 115%;
+}
+
 div#firstpost div.keepreading{
+	position: relative;
 	text-align: right;
 	font-size: 0.8em;
-	margin-top: 0.2em;
+	top: -1em;
+}
+
+div.date {
+	position:relative;
+	font-size: 0.5em;
+	top: -0.8em;
 }
 
 div#firstpost div.date {
 	position: relative;
-	font-size: 0.5em;
-	top: -0.8em;
 }
 
 div#firstpost h2 {
@@ -78,9 +92,19 @@ div#firstpost h2 {
 	margin-bottom: 0.2em;
 }
 
+div#firstpost p, div.post > div.postbody > p:first-child {
+	font-size:0.75em;
+}
+
 div#firstpost div.keepreading {
 	position: relative;
 	right: 0px;
+}
+
+div.post p {
+	font-size: 0.5em;
+	margin-bottom: 0.75em;
+	line-height: 120%;
 }
 
 div#othercontent{
@@ -109,3 +133,11 @@ div.copyright p {
 	margin-bottom: 1em;
 }
 
+pre code {
+	font-family: 'Inconsolata', sans-serif;
+	font-size: 0.5em;
+	line-height: 100%;
+	margin-bottom: 0.5em;
+	margin-right: 1.5em;
+	margin-left: 1.5em;
+}
