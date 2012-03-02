@@ -21,10 +21,10 @@ html {
 	font-size: 2em;
 	background-color: #fdf6e3; 
 	color: #586e75;
+	background: #073642 url(img/darknoise.png) repeat 0 0;
 }
 
 body {
-	background-color: #fdf6e3;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -53,7 +53,6 @@ div#topheader {
 	height: 2.5em;
 	color: #fdf6e3;
 	position: relative;
-	background: #073642 url(img/darknoise.png) repeat 0 0;
 }
 
 div#topheader h1 {
@@ -64,7 +63,11 @@ div#topheader h1 {
 	padding-left: 0.1em;
 }
 
+div#maincontentbg {
+	background-color: #fdf6e3;
+}
 div#maincontent {
+	background-color: #fdf6e3;
 	padding-top: 0.5em;
 	line-height: 115%;
 }
@@ -122,7 +125,6 @@ div#sitefooter {
 	color: #eee8d5;
 	font-size: 0.5em;
 	height: 20em;
-	background:#002b36 url(img/darknoise.png) repeat 0 0;
 }
 
 div#sitefooter a {
